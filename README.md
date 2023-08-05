@@ -15,5 +15,5 @@ Nasir Zeeshan Bashir, Bryony Moody
 
 ### Analysis
 
-**Stata v16.0**
-**R v4.31.**
+**Stata v17.0**\
+**R v4.3.1**
