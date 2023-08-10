@@ -2,7 +2,10 @@
 Code for my MSc in Statistics dissertation at the University of Sheffield.
 
 #### Authors
-Nasir Zeeshan Bashir, Bryony Moody
+Nasir Zeeshan Bashir
+
+#### Dissertation Supervisor
+Bryony Moody
 
 #### Links                                             
 
