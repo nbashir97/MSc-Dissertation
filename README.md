@@ -19,7 +19,7 @@ Overall, we identified a substantial increase in risk of disease amongst immigra
 
 ### Analysis
 
-The Stata code is separated into two files: (i) merging together the raw SAS .XPT files and converting them into .dta format, (ii) the subsequent cleaning and statistical analysis of the merged file. The R code is separated into three files (i) creating the simulation Figure 2.1, (ii) all analyses of the artificial data in Table 2.1, (iii) carrying out the PLRTs. 
+The Stata code is separated into two files: (i) merging together the raw SAS .XPT files and converting them into .dta format, (ii) the subsequent cleaning and statistical analysis of the merged file. The R code is separated into three files (i) creating the simulation Figure 2.1, (ii) all analyses of the artificial data in Table 2.1, (iii) carrying out the PLRTs. LaTeX code for compiling the dissertation from source is also provided.
 
 The NHANES data and artificial blood pressure data are located in the `data` directory.
 
