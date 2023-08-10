@@ -1,0 +1,91 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Dissertation template for the MSc in Statistics at the University of Sheffield
+%You should not change anything between lines 4 and 39 of this file, except 
+% to enter your title on line 9 and your name on line 10.
+\documentclass{somasmsc}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Edit the next two lines in the obvious way %%%%
+\newcommand{\yourtitle}{Nativity Status and Dental Caries in the US Paediatric Population}
+\newcommand{\yourname}{Nasir Zeeshan Bashir}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% To add your acknowledgements and abstract
+% edit (and save) the files called acknowledgements.tex and
+% abstract.tex (in the current directory) and
+% then compose this file using pdflatex
+\include{chapters/frontpage}
+\pagestyle{empty}
+\frontmatter
+\maketitle
+\pagestyle{plain}
+\tableofcontents
+\newpage
+\include{chapters/lay_summary}
+
+%setup some simple running headers
+\setlength{\headheight}{16pt}
+\fancyhead{}
+\fancyfoot{}
+\pagestyle{fancy}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[LO,RE]{\rightmark}
+
+%setup commenting
+\newcommand{\studentcomment}[1]{\todo[inline, backgroundcolor = blue!30]{\textsc{\yourname:} #1}}
+\newcommand{\DSWcomment}[1]{\todo[inline, backgroundcolor = green!30]{\textsc{DSW:} #1}}
+\newcommand{\supcomment}[1]{\todo[inline, backgroundcolor = red!30]{\textsc{Supervisor:} #1}}
+
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You should write the main part of your thesis below here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Background}\label{intro}
+\input{chapters/1\_background}
+
+\chapter{Survey data}\label{surveys}
+\input{chapters/2\_surveys}
+
+\chapter{Materials and methods}\label{methods}
+\input{chapters/3\_methods}
+
+\chapter{Results}\label{results}
+\input{chapters/4\_results}
+
+\chapter{Discussion}\label{discussion}
+\input{chapters/5\_discussion}
+
+\chapter{Concluding remarks}\label{conclusion}
+\input{chapters/6\_conclusion}
+
+% To amend the appendices, edit (and save) the file
+% in the current directory called appendices.tex and
+% then recompile this file using pdflatex.
+
+\include{chapters/appendices}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% To add to or change the References, edit (and save)
+% the file called references.tex in the current
+% directory and then recompile this file using pdflatex.
+%If the file compiles but leaves a question mark where
+%you expect to see a reference, recompile using bibtex
+%and then recompile using pdflatex again.
+% Do not change any code below here.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\backmatter
+\renewcommand{\bibname}{References}
+\bibliography{chapters/references}
+\bibliographystyle{apalike}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
