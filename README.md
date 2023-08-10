@@ -26,4 +26,5 @@ The NHANES data and artificial blood pressure data are located in the `data` dir
 The final dissertation is named `Bashir-NZ.pdf`.
 
 **Stata v17.0**\
-**R v4.3.1**
+**R v4.3.1**\
+**MiKTeX Console 4.9**
