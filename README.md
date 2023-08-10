@@ -7,8 +7,6 @@ Nasir Zeeshan Bashir
 #### Dissertation Supervisor
 Bryony Moody                                       
 
-### Background
-
 ### Lay Summary
 
 Dental caries (a.k.a. "tooth decay" or "cavities") is the most common chronic disease affecting children in the United States (US). There are many major risk factors which influence oral health and, given the shifting political landscape, one risk factor which has been bought to the spotlight in recent times is immigration. This is particularly relevant to the US for two reasons: (i) it has the most migrants of any country in the world, (ii) immigration policy is currently a political hotbed. Despite this, there is a lack of robust research investigating how immigration is associated with dental caries amongst children in America.
@@ -20,6 +18,8 @@ The included sample comprised 1,502 individuals, which was representative of 36 
 Overall, we identified a substantial increase in risk of disease amongst immigrant children, which ties in with the existing evidence that social determinants have an acute impact on oral health. Future researchers may be motivated to further explore this highly complex and multifactorial relationship, and these findings may also guide policy makers with regards to allocation of healthcare resources.
 
 ### Analysis
+
+The Stata code is separated into two files: (i) merging together the raw SAS .XPT files and converting them into .dta format, (ii) the subsequent cleaning and statistical analysis of the merged file. The R code is separated into three files (i) creating the simulation Figure 2.1, (ii) all analyses of the artificial data in Table 2.1, (iii) carrying out the PLRTs. The NHANES data and artificial blood pressure data are located in the `/data` directory.
 
 **Stata v17.0**\
 **R v4.3.1**
