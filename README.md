@@ -1,10 +1,10 @@
 # MSc-Dissertation
 Code for my MSc in Statistics dissertation at The University of Sheffield.
 
-#### Authors
+#### Author
 Nasir Zeeshan Bashir
 
-#### Dissertation Supervisor
+#### Supervisor
 Bryony Moody                                       
 
 ### Lay Summary
