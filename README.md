@@ -7,6 +7,9 @@ Nasir Zeeshan Bashir
 #### Supervisor
 Bryony Moody                                       
 
+#### Mark Awarded
+Distinction
+
 ### Lay Summary
 
 Dental caries (a.k.a. "tooth decay" or "cavities") is the most common chronic disease affecting children in the United States (US). There are many major risk factors which influence oral health and, given the shifting political landscape, one risk factor which has been bought to the spotlight in recent times is immigration. This is particularly relevant to the US for two reasons: (i) it has the most migrants of any country in the world, (ii) immigration policy is currently a political hotbed. Despite this, there is a lack of robust research investigating how immigration is associated with dental caries amongst children in America.
@@ -24,9 +27,6 @@ The Stata code is separated into two files: (i) merging together the raw SAS .XP
 The NHANES data and artificial blood pressure data are located in the `data` directory.
 
 The final compiled version of the dissertation is named `Bashir-NZ.pdf`.
-
-#### Mark Awarded
-Distinction
 
 **Stata v17.0**\
 **R v4.3.1**\
